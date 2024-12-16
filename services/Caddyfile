@@ -1,0 +1,6 @@
+elk.chiawen.dev {
+	reverse_proxy :5601
+	log {
+		output file /var/log/caddy/access.log
+	}
+}
